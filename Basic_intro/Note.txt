@@ -1,0 +1,18 @@
+Function definition → Parameter
+Function call → Argument
+
+
+
+12. print() vs return
+print() =====> শুধু output দেখায়।
+return ======> Result function-এর বাইরে পাঠায়।
+
+
+Lambda কোথায় বেশি ব্যবহার হয়? বিশেষ করে:
+map()
+filter()
+sorted()
+
+
+
+
