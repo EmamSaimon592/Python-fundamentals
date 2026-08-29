@@ -14,5 +14,40 @@ filter()
 sorted()
 
 
+list ===> mutable []  .append(), .remove(), .pop()
+tuple ====> unmutable ()    .count(), .index()
+
+
+fruits = ["apple", "banana"]
+fruits.append("mango")
+print(fruits)  
+# আউটপুট: ['apple', 'banana', 'mango']
+
+
+
+numbers = [10, 30, 40]
+# ১ নাম্বার ইনডেক্সে (অর্থাৎ দ্বিতীয় স্থানে) ২০ বসাবে
+numbers.insert(1, 20) 
+print(numbers)  
+# আউটপুট: [10, 20, 30, 40]
+
+
+cars = ["Toyota", "BMW", "Ford"]
+cars.remove("BMW")
+print(cars)  
+# আউটপুট: ['Toyota', 'Ford']
+
+
+languages = ["Python", "Java", "C++"]
+last_item = languages.pop()
+print(last_item)  # আউটপুট: C++
+print(languages)  # আউটপুট: ['Python', 'Java']
+
+
+nums = [5, 2, 8, 1]
+nums.sort()
+print(nums)  
+# আউটপুট: [1, 2, 5, 8]
+
 
 
